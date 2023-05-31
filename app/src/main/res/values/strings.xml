@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PlantDoc</string>
+
+    <string name="title_home">Home</string>
+    <string name="pupuk">Pupuk</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="search">Search</string>
+
+    <string name="settings">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="scan">Scan and identify the plant</string>
+    <string name="penyakit_tanaman">Penyakit Tanaman</string>
+    <string name="lihat_semua">Lihat Semua</string>
+    <string name="nama_pupuk">Nama Pupuk</string>
+    <string name="manfaat">Manfaat</string>
+    <string name="spesifikasi">Spesifikasi</string>
+    <string name="nama_penyakit">Nama Penyakit</string>
+    <string name="berita">Berita Seputar Tanaman</string>
+</resources>

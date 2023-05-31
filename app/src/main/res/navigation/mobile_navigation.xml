@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.capstonebangkit.plantdoc.ui.home.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_pupuk"
+        android:name="com.capstonebangkit.plantdoc.ui.pupuk.PupukFragment"
+        android:label="@string/pupuk"
+        tools:layout="@layout/fragment_pupuk" />
+
+    <fragment
+        android:id="@+id/navigation_bookmark"
+        android:name="com.capstonebangkit.plantdoc.ui.bookmark.BookmarkFragment"
+        android:label="@string/bookmark"
+        tools:layout="@layout/fragment_bookmark" />
+</navigation>
